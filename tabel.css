@@ -1,0 +1,11 @@
+#table{
+    background-color:#FBEEE6;
+    border-collapse: collapse;
+    margin: 25px;
+    font-family:serif;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+table, th, td { 	border: 1px black solid; }
