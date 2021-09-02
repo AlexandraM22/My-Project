@@ -1,0 +1,214 @@
+/*body{/* 
+    float: ;
+    overflow: ;
+    clear: ;
+    display:block - pt text pe verticala; inline - text pe orizontala; inline-block;
+    height: ;
+    position: absolute e ca fixed doar ca atunci cand dai scroll se muta;
+    z-index: -1; putem modifica prioritatea elem
+    position: sticky;
+    a:link{
+        color - culuoarea textului unui link
+    }
+    a:hover{
+        culoarea textului cand treci cu mouse-ul peste link
+    }
+    a:visited{
+        culoarea link-urilor vizitate
+    }
+    a:active{
+
+    }
+    p:first-child{
+        color - culuoarea pt primul paragraf
+    }
+    p:h:first-child{
+
+    }
+    Pseudo-classes
+
+    p::before{
+    }
+    ::marker{
+    }
+    ::selection{
+    }
+    */
+
+
+
+
+
+
+
+
+    body
+    .topnav {
+        background-color: #17202A;
+        overflow: hidden;
+      }
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 25px 20px;
+        text-decoration: none;
+        font-size: 25px;
+      }
+    .topnav a:hover {
+        background-color: #FDFEFE;
+        color: #C0392B;
+      }
+    .topnav a.active {
+        background-color: #F1948A ;
+        color: white;
+      }
+    .big {
+        line-height: 2;
+    }
+    p{
+        font-size: larger;
+    }
+    #lists{
+        background-color: #F5B7B1 ;
+        text-align: left;
+        font-size: 30px;;
+        font-family: serif;
+        top: 0cm;
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+    }
+
+    .Saved{
+        background-color: #D0D3D4;
+        color: #17202A;
+        border: 3px solid black;
+        margin: 10px;
+        padding: 10px;
+        top: 10%;
+        text size: 50px;
+    }
+    .Saved img{
+        height: 20cm;
+        width:100%;
+    }
+    .music{
+        background-color: white;
+        margin: 30px;
+        padding: 10px;
+        border-right-width:50px;
+        border-top-width:5px;
+    }
+    .music audio{
+        width: 24.59%;
+    }
+    .galery{
+        background-color: #FDEDEC;
+        text-align: center;
+    }
+    .galery img{
+        height: 10cm;
+        width: 33%;
+    }
+    body{
+        background-color:#FADBD8;
+    }
+    #title{
+        text-align: center;
+        color: #17202A;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    a:hover{
+        color:#641E16;
+    }
+   #link{
+        color:#FDFEFE;
+        position: inherit;
+        text-align: center;
+    }
+    a:visited {
+        color:#FDEDEC;
+        text-decoration-style: none;
+    }
+    #story{
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .video{
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-right-width:50px;
+        border-top-width:5px;
+        height: 700px;
+    }
+    .video video{
+        height: 700px;
+        width: 700px;
+    }
+    #v1{
+        float:left;
+    }
+    #v2{
+        float:right;
+    }
+
+    @keyframes example {
+        0%   {right: 20px;; top:-90px;}
+      /*  25%  {right:110px; top:10px;}*/
+        50%  {right:20px; top:40px;}
+       /* 75%  {right:150px; top:20px;}*/
+        100% {right:20px; top:-90px;}
+      }
+
+      #image{
+        width: 300px;
+        height: 200px;
+        position:relative;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        float: right;
+        border-radius: 25px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+   *{
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       background-color: #17202A;
+   }
+   li,a{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 20px;
+       font-weight: 500;
+       color: yellow;
+       text-decoration: none;
+   }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+    */
