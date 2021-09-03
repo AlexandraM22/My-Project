@@ -1,28 +1,37 @@
 class Client{
-    constructor(name,sname,age, number){
-        this.name = name;
-        this.sname = sname;
+    constructor(fname,lname,age,email, phnumber,ncat,adr,occ){
+        this.fname = fname;
+        this.lname = lname;
         this.age = age;
-        this.number = number;
+        this.email = email;
+        this.phnumber = phnumber;
+        this.ncat = ncat;
+        this.adr = adr;
+        this.occ = occ;
     };
     showed(){
-        return String(this.name) + " " + String(this.sname) + " " + String(this.age) + " " + String(this.number);
+        return String(this.fname) + " " + String(this.lname) + " " + String(this.age) + " " + String(this.email) + " " + String(this.phnumber) + " " + String(this.ncat) + " " + String(this.adr) + " " + String(this.occ);
     };
 };
 
 function GetInfo(cs){
     let nam = document.getElementById('fname').value;
-    let snam = document.getElementById('sname').value;
-    let clage = document.getElementById('cage').value;
-    let cnum = document.getElementById('cnumber').value;
-    let cliente = new Client(nam,snam,clage,cnum);
-    cs.push(cliente);
+    let snam = document.getElementById('lname').value;
+    let a = document.getElementById('age').value;
+    let em = document.getElementById('email').value;
+    let phnum = document.getElementById('phnumber').value;
+    let c = document.getElementById('ncat').value;
+    let adre = document.getElementById('adr').value;
+    let occup = document.getElementById('occ').value;
+
+    let ad = new Client(nam,snam,a,em,phnum,c,adre,occup);
+    cs.push(ad);
 };
 
 function Show(cs){
     text = "";
     for(x of cs){
-        text += x.showed() + "</br>";
+        text += x.showed() + "</br></br>";
         document.getElementById("text").innerHTML = text;
     };
 };
