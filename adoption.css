@@ -1,0 +1,36 @@
+#form{
+    background-color: #FDEDEC  ;
+    width: 20cm;
+    height: 11cm;
+    font-size: 20px;
+    position: absolute;
+    top: 2cm;
+}
+#f1{
+    width: 10cm;
+    height: 10cm;
+    position: fixed;
+    float: left;
+    top:2cm;
+    padding-left: 2cm;
+}
+#f2{
+    width: 10cm;
+    height: 10cm;
+    float: right;
+    position: fixed;
+    top:2cm;
+    left: 10cm;
+}
+#b{
+
+    position: fixed;
+    bottom: 9.5cm;
+    right: 21cm;
+}
+#text{
+    position: fixed;
+    right:1cm;
+    width: 45%;
+
+}
