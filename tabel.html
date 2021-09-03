@@ -2,6 +2,7 @@
 <head>
     <title>Raport</title>
     <link rel="stylesheet" href="tabel.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div id = "table">
@@ -12,7 +13,7 @@
                 <th><b>The name of the person who saved it</b></th>
                 <th><b>Health problems</b></th>
             </tr>
-    
+
             <tr>
             <td>Lemonada</td>
             <td>28 September 2020</td>
@@ -22,16 +23,32 @@
             <tr>
                 <td>Pic</td>
                 <td>22 November 2018</td>
-                <td><p style="font-size: 20px; text-align: center;">Alexandra</p></td>
+                <td><p style="font-size: 20px; text-align: center;">Maria</p></td>
                 <td>Infestations of intestinal worms</td>
             </tr>
             <tr>
                 <td>Poc</td>
                 <td>22 November 2018</td>
-                <td><p style="font-size: 20px; text-align: center;">Alexandra</p></td>
+                <td><p style="font-size: 20px; text-align: center;">Maria</p></td>
                 <td>Infestations of intestinal worms</td>
             </tr>
         </table>
     </div>
+<br><br><br><br>
+
+<p id="do1"></p>
+<p id="do2"></p>
+<p id="do3"></p>
+<script>
+let text = '{"cats":[' +
+'{"firstName":"Ginger","lastName":"Smith" },' +
+'{"firstName":"Cookie","lastName":"Clarke" },' +
+'{"firstName":"Billie","lastName":"Jhon" }]}';
+
+const obj = JSON.parse(text);
+document.getElementById("do1").innerHTML = obj.cats[0].firstName + " " + obj.cats[0].lastName;
+document.getElementById("do2").innerHTML = obj.cats[1].firstName + " " + obj.cats[1].lastName;
+document.getElementById("do3").innerHTML = obj.cats[2].firstName + " " + obj.cats[2].lastName;
+</script>
 </body>
 </html>
