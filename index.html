@@ -10,21 +10,11 @@
 </head>
 
 <body>
-    <!--
-    <header>
-        <div>
-            <ul class="navbar">
-                <li><a href="https://www.filmaffinity.com/es/film669807.html">Report</a></li>
-                <li><a href="https://www.filmaffinity.com/es/film669807.html">Contact</a></li>
-                <li><a href="https://www.filmaffinity.com/es/film669807.html">About</a></li>
-            </ul>
-        </div>
-    </header>
--->
+
     <div class="topnav">
         <a class="active" href="tabel.html">Raport</a>
         <a href="https://globalnews.ca/tag/cat-rescue/">News</a>
-        <a href="https://www.alleycat.org/">Contact</a>
+        <a href="contact.html">Adoption form</a>
         <a href="https://www.alleycat.org/">About</a>
     </div>
 
@@ -56,7 +46,7 @@
 
         <p style="text-align: center; font-size: 50px;">Lemonada</p>
         <p id="buttontext"></p>
-        <button type="button" onclick="document.getElementById('buttontext').innerHTML='When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile.'">Click on the button to discover Lemonada's story</button>
+        <button id="bot" type="button" onclick="document.getElementById('buttontext').innerHTML='When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile.'">Discover Lemonada's story</button>
         <!--<p style="font-size: 25px;>When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile. </p>
         -->
         <p id="story"><a href="https://www.lovemeow.com/from-fear-to-trust-story-of-meatie-the-feral-cat-1608024138.html">Read the whole story</a></p>
@@ -111,20 +101,15 @@
 <br>
 <br>
 
-<input type="text" id="fname">
-<input type="text" id="sname">
-<input type="text" id="cage">
-<input type="text" id="cnumber">
-
-<button onclick="GetInfo(cs)">Upload</button>
-<button onclick="Show(cs)">Show</button>
-<p id="text"></p>
-
 <!--
 <input type="text"placeholder="Enter your name" name="name" id="name" required>
 <button onclick="add();">Add</button>
 <input type="age" placeholder="Enter your age" name="age" id="age" required>
 <button onclick="show();">Show</button>
+
+<button onclick="See(y)">See</button>
+<p id="do"></p>
 -->
+
 </body>
 </html>
