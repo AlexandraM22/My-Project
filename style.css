@@ -172,7 +172,15 @@
         float: right;
         border-radius: 25px;
       }
-
+      #bot{
+          width: 5cm;
+          height: 2.5cm;
+          background:#F7F9F9;
+          color:#17202A;
+          border-radius: 25px;
+          font-size: 20px;
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
 
 
 
