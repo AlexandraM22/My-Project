@@ -102,14 +102,32 @@
     .music audio{
         width: 24.59%;
     }
+    #slides{
+        height:12cm ;
+    }
     .galery{
         background-color: #FDEDEC;
-        text-align: center;
+        position: absolute;
+        left: 2cm;
+        width: auto;
     }
     .galery img{
-        height: 10cm;
-        width: 33%;
+        height: 11.5cm;
+        width: 300cm;
     }
+    .galery2{
+        background-color: #FDEDEC;
+        text-align: center;
+        width: 50%;
+        position: absolute;
+        left: 40.5%;
+        top: 38.5%;
+    }
+    .galery2 img{
+        height: 11.5cm;
+        width: 400cm;
+    }
+
     body{
         background-color:#FADBD8;
     }
