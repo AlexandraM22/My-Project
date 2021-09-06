@@ -1,0 +1,54 @@
+.cont{
+    background: #EAECEE;
+    height: 16.5cm;
+    width: 18cm;
+    position: fixed;
+    left: 10cm;
+    right: 10cm;
+    top: 30px;
+}
+#contacting{
+    text-align: center;
+    color: #17202A;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1px;
+    padding: 20px;
+    top: 10%;
+}
+.icons{
+    margin-right: 5px;
+    margin-left: 20px;
+    width:1.35cm;
+    height: 1.35cm;
+    position: relative;
+    top: 15px;
+}
+.icons2{
+    margin-right: 5px;
+    margin-left: 16px;
+    width:1.5cm;
+    height: 1.5cm;
+    position: relative;
+    top: 24px;
+}
+.icons3{
+    margin-right:14px;
+    margin-left: 20px;
+    width:1.2cm;
+    height: 1.2cm;
+    position: relative;
+    top: 18px;
+}
+.button{
+    width: 140px;
+    background:#F7F9F9;
+    color:#17202A;
+    display:block;
+    font-size: 26px;
+    font-transform: uppercase;
+    padding: 5px;
+    text-align:center;
+    margin: 35px auto;
+    cursor:pointer;
+}
