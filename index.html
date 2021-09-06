@@ -15,18 +15,65 @@
         <a class="active" href="tabel.html">Raport</a>
         <a href="https://globalnews.ca/tag/cat-rescue/">News</a>
         <a href="contact.html">Adoption form</a>
-        <a href="https://www.alleycat.org/">About</a>
+        <a href="contactform.html">Contact us</a>
     </div>
 
     <div id="title">
         <p> Rescued cats</p>
     </div>
+
+    <div id="slides">
+
+        <div class="galery" style="max-width:500px">
+            <img class="mySlides" src="transf.jfif" style="width:100%">
+            <img class="mySlides" src="2.jpg" style="width:100%">
+            <img class="mySlides" src="3.jpg" style="width:100%">
+        </div>
+        <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+      <div class="galery2" style="max-width:500px">
+        <img class="mySlides2" src="catg.jpg" style="width:100%">
+        <img class="mySlides2" src="catg2.jpg" style="width:100%">
+        <img class="mySlides2" src="catg3.jpg" style="width:100%">
+      </div>
+      <script>
+      var myIndex = 0;
+      carousel2();
+      function carousel2() {
+        var i;
+        var x = document.getElementsByClassName("mySlides2");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel2, 2000); // Change image every 2 seconds
+      }
+      </script>
+
+</div>
+      <!--
     <div class="galery">
     <img src="transf.jfif">
     <img src="2.jpg">
     <img src="3.jpg">
     </div>
-
+    -->
     <br>
 
 
@@ -41,7 +88,7 @@
              </ul>
 
         </div>
-
+    <br>
     <div class="Saved">
 
         <p style="text-align: center; font-size: 50px;">Lemonada</p>
