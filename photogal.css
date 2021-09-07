@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 15cm;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 187%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 18px;
+    text-align: center;
+  }
+
+ 
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  #c1{
+    position: absolute;
+    left: 3cm;
+    width: 15cm;
+    height: 20cm;
+  }
+  #c2{
+    position: absolute;
+    left: 21cm;
+    width: 15cm;
+    height: 20cm;
+  }
+  #link{
+    position:sticky;
+    left: 18.3cm;
+    top: 29.5cm;
+    margin-top: 29cm;
+    width: 2.5cm;
+    bottom: 20cm;
+    height: 1cm;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ 
