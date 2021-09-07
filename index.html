@@ -16,6 +16,7 @@
         <a href="https://globalnews.ca/tag/cat-rescue/">News</a>
         <a href="contact.html">Adoption form</a>
         <a href="contactform.html">Contact us</a>
+        <a id="gal" href="photogal.html">Photo gallery</a>
     </div>
 
     <div id="title">
@@ -24,10 +25,10 @@
 
     <div id="slides">
 
-        <div class="galery" style="max-width:500px">
-            <img class="mySlides" src="transf.jfif" style="width:100%">
-            <img class="mySlides" src="2.jpg" style="width:100%">
-            <img class="mySlides" src="3.jpg" style="width:100%">
+        <div class="galery">
+            <img class="mySlides" src="transf.jfif">
+            <img class="mySlides" src="2.jpg">
+            <img class="mySlides" src="3.jpg">
         </div>
         <script>
         var myIndex = 0;
@@ -45,10 +46,10 @@
         }
         </script>
 
-      <div class="galery2" style="max-width:500px">
-        <img class="mySlides2" src="catg.jpg" style="width:100%">
-        <img class="mySlides2" src="catg2.jpg" style="width:100%">
-        <img class="mySlides2" src="catg3.jpg" style="width:100%">
+      <div class="galery2">
+        <img class="mySlides2" src="catg.jpg">
+        <img class="mySlides2" src="catg2.jpg">
+        <img class="mySlides2" src="catg3.jpg">
       </div>
       <script>
       var myIndex = 0;
@@ -57,7 +58,7 @@
         var i;
         var x = document.getElementsByClassName("mySlides2");
         for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none"; 
+          x[i].style.display = "none";
         }
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}
@@ -78,7 +79,7 @@
 
 
     <div  id = "lists">
-            <p id="link"><a id="links" href="https://www.rspca.org.uk/findapet/rehomeapet/process/rehomeacat">How to adopt a rescue cat or kitten</a></p>
+            <p id="link"><a id="links" href="https://www.rspca.org.uk/findapet/rehomeapet/process/rehomeacat" style="font-size: 40px">How to adopt a rescue cat or kitten</a></p>
                 <img id="image"src="img.png">
             <ul>
                 <li class="big">Search for cats available for adoption. Head on over to our find a pet service.</li>
@@ -91,7 +92,7 @@
     <br>
     <div class="Saved">
 
-        <p style="text-align: center; font-size: 50px;">Lemonada</p>
+        <p id="par">Lemonada</p>
         <p id="buttontext"></p>
         <button id="bot" type="button" onclick="document.getElementById('buttontext').innerHTML='When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile.'">Discover Lemonada's story</button>
         <!--<p style="font-size: 25px;>When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile. </p>
@@ -102,7 +103,7 @@
         <button type="button" onclick="document.getElementById('1morephoto').src='lemon.jpg'">Click to see another photo</button>
         <img id="1morephoto">
         <br>
-        <p style="font-size: 25px;">These are some songs that make Leomonada relax. Listen the songs and see if you like them.</p>
+        <p style="font-size: 25px; text-align: center;">These are some songs that make Leomonada relax. Listen the songs and see if you like them.</p>
         <div class="music">
             <audio controls>
                 <source src="musiccat1.mp3" type="audio/mp3">
