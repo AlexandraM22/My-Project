@@ -63,6 +63,9 @@
         background-color: #F1948A ;
         color: white;
       }
+    #gal{
+        float:right;
+    }
     .big {
         line-height: 2;
     }
@@ -70,9 +73,9 @@
         font-size: larger;
     }
     #lists{
-        background-color: #F5B7B1 ;
+        background-color: #F5B7B1;
         text-align: left;
-        font-size: 30px;;
+        font-size: 28px;;
         font-family: serif;
         top: 0cm;
         border: 2px solid whitesmoke;
@@ -87,6 +90,12 @@
         padding: 10px;
         top: 10%;
         text size: 50px;
+    }
+    #par{
+        height: 1.5cm;
+        font-size: 45px;
+        text-align: center;
+
     }
     .Saved img{
         height: 20cm;
@@ -109,23 +118,21 @@
         background-color: #FDEDEC;
         position: absolute;
         left: 2cm;
-        width: auto;
     }
     .galery img{
         height: 11.5cm;
-        width: 300cm;
+        width: 18cm;
     }
     .galery2{
         background-color: #FDEDEC;
         text-align: center;
-        width: 50%;
         position: absolute;
-        left: 40.5%;
-        top: 38.5%;
+        left: 49.8%;
+        top: 36.5%;
     }
     .galery2 img{
         height: 11.5cm;
-        width: 400cm;
+        width: 18cm;
     }
 
     body{
@@ -199,8 +206,9 @@
           font-size: 20px;
           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
-
-
+      #buttontext{
+        font-size: 25px;
+    }
 
 
 
