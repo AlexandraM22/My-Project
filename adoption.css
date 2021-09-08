@@ -26,11 +26,24 @@
 
     position: fixed;
     bottom: 6cm;
-    right: 21cm;
+    right: 20.5cm;
 }
 #text{
     position: fixed;
     right:1cm;
     width: 45%;
-
+    top: 1.5cm;
 }
+#link{
+    position:sticky;
+    left: 13cm;
+    top: 0cm;
+    margin-top: 16cm;
+    width: 2.8cm;
+    bottom: 20cm;
+    height: 1cm;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
