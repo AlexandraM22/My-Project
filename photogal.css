@@ -27,7 +27,7 @@
     text-align: center;
   }
 
- 
+
   .container:hover .overlay {
     opacity: 1;
   }
