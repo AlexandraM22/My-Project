@@ -21,6 +21,8 @@
 
     <div id="title">
         <p> Rescued cats</p>
+        <img id="icon" src="icat.png">
+        <!--<img id ="gif" src="cat.gif">-->
     </div>
 
     <div id="slides">
@@ -93,15 +95,18 @@
     <div class="Saved">
 
         <p id="par">Lemonada</p>
-        <p id="buttontext"></p>
-        <button id="bot" type="button" onclick="document.getElementById('buttontext').innerHTML='When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile.'">Discover Lemonada's story</button>
+        <div id="buton">
+             <p id="buttontext"></p>
+             <button id="bot" type="button" onclick="document.getElementById('buttontext').innerHTML='When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile.'">Discover Lemonada's story</button>
         <!--<p style="font-size: 25px;>When Andreea met Lemonada for the first time, she was starving and needed help. As a feral cat, Lemonada was not willing to trust humans and kept her distance. It took Andreea arduous work and patience to finally earn her trust. The process was long and difficult, but it was so rewarding at the end that it made everything worthwhile. </p>
         -->
+        
         <p id="story"><a href="https://www.lovemeow.com/from-fear-to-trust-story-of-meatie-the-feral-cat-1608024138.html">Read the whole story</a></p>
+        </div>
         <img src="poirot.jpg">
         <br><br>
-        <button type="button" onclick="document.getElementById('1morephoto').src='lemon.jpg'">Click to see another photo</button>
-        <img id="1morephoto">
+        <button id="ph" type="button" onclick="document.getElementById('1morephoto').src='lemon.jpg'; document.getElementById('1morephoto').style='display:block'">Click to see another photo</button>
+        <img style="display: none;" id="1morephoto">
         <br>
         <p style="font-size: 25px; text-align: center;">These are some songs that make Leomonada relax. Listen the songs and see if you like them.</p>
         <div class="music">
@@ -144,10 +149,7 @@
         -->
         </div>
     </div>
-
-<br>
-<br>
-<br>
+    <br><br>
 
 <!--
 <input type="text"placeholder="Enter your name" name="name" id="name" required>
@@ -158,6 +160,12 @@
 <button onclick="See(y)">See</button>
 <p id="do"></p>
 -->
+<div id="empty">
+<img id="q1" src="quote.png">
+<p id="par1">Rescuing one cat won't change the world...</p>
+<p id="par2"> <br>...But it will change the world for one cat.</p>
+<img id="q2" src="q2.png">
+</div>
 
 </body>
 </html>
