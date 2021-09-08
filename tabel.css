@@ -9,3 +9,17 @@
 }
 
 table, th, td { border: 1px black solid; width: 20.2cm;}
+
+#link{
+    position:sticky;
+    left: 32cm;
+    top: 0cm;
+    margin-top: 0.5cm;
+    width: 2.8cm;
+    bottom: 20cm;
+    height: 1cm;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
